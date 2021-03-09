@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="index.js"></script>
+        <style>
+            .controls {
+                padding: 8px;
+            }
+
+            .image {
+                width: 100%;
+                height: calc(100% - 37px);
+                background-color: azure;
+                border-radius: 8px;
+            }
+
+            body {
+                background-color: steelblue;
+            }
+
+            body > div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #img {
+                width: 0;
+                height: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="controls">
+            <input type="file" id="file" />
+            <input type="button" value="load" onclick="loadFile()" />
+        </div>
+        <div class="image">
+            <div id="img"></div>
+        </div>
+    </body>
+</html>

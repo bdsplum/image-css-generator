@@ -1,0 +1,8 @@
+{
+  "name": "image-css-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bdsplum/image-css-generator.git",
+  "author": "bdsplum <6123840+bdsplum@users.noreply.github.com>",
+  "license": "MIT"
+}
